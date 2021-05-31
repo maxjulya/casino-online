@@ -1,0 +1,3163 @@
+/* 1199px and 1025px */
+
+@media screen and (max-width: 1199px) and (min-width: 1025px) {
+
+/* Common Items Start */
+
+.space-desktop-view-2 {
+	display: none;
+}
+.space-mobile-view-2 {
+	display: block;
+}
+
+/* Common Items End */
+
+/* Header #1 Style Start */
+
+.space-header-height {
+	min-height: 60px;
+}
+.space-header-height.enable-top-bar {
+	min-height: 90px;
+}
+.space-header {
+    min-height: 60px;
+}
+.space-header-height.dark .space-header-logo-ins:after,
+.space-header-logo-ins:after {
+	background-color: transparent;
+}
+.space-header-logo {
+	width: 66.66666666%;
+}
+.space-header-logo a {
+	padding-top: 5px;
+}
+.space-header-logo a.text-logo {
+	padding-top: 7px;
+}
+.space-header-menu {
+	width: 33.33333333%;
+}
+.space-header-menu ul.main-menu {
+	display: none;
+}
+
+/* Header #1 Style End */
+
+/* Header #2 Style Start */
+
+.space-header-2-height,
+.space-header-2-wrap {
+    min-height: 60px;
+}
+.space-header-2-top {
+    min-height: 60px;
+}
+.space-header-2-top-ins {
+	min-height: 60px;
+    border-bottom: 0;
+}
+.space-header-2-height.dark .space-header-2-top-ins {
+	border-bottom: 0;
+}
+.space-header-2-top-soc .space-mobile-menu-icon {
+	top: 20px;
+    left: 15px;
+    right: auto;
+}
+.space-header-2-top-soc-ins {
+	display: none;
+}
+.space-header-2-top-logo-ins {
+    padding-top: 9px;
+}
+.space-header-2-top-logo a.text-logo {
+	padding-top: 3px;
+}
+.space-header-2-top-search .space-header-search {
+	top: 20px;
+    right: 15px;
+    color: #2d3436;
+}
+.space-header-2-nav {
+	display: none;
+}
+.space-header-2-wrap.fixed .space-header-2-top {
+	display: block;
+}
+
+/* Header #2 Style End */
+
+/* Search Block Start */
+
+.space-header-search {
+	right: 40px;
+	top: 20px;
+	margin: 0;
+}
+.desktop-search-close-button {
+	top: 20px;
+	right: 20px;
+}
+
+/* Search Block End */
+
+/* Mobile Menu Start */
+
+.space-mobile-menu-icon {
+	display: block;
+	top: 20px;
+    right: 15px;
+}
+
+/* Mobile Menu End */
+
+/* #1 Widget Start */
+
+.space-news-1 {
+	margin-bottom: 45px;
+}
+.space-news-1-ins {
+	padding: 30px 0 15px;
+}
+.space-news-1-item {
+	width: 50%;
+}
+
+/* #1 Widget End */
+
+/* #2 Widget Start */
+
+.space-news-2.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-2-ins {
+	padding: 0 0 45px;
+}
+.space-news-2-small-item-img .space-post-format {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.space-news-2-small-item-title a {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+/* #2 Widget End */
+
+/* #3 Widget Start */
+
+.space-news-3.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-3-ins {
+	padding: 0 0 15px;
+}
+
+/* #3 Widget End */
+
+/* #4 Widget Start */
+
+.space-news-4 {
+	margin-bottom: 45px;
+}
+.space-news-4-ins {
+	padding: 45px 0 15px;
+}
+.space-news-4-item .space-news-4-item-top-title {
+	font-size: 1.333em;
+}
+.space-news-4-item.small-news-block .space-news-4-item-title {
+    margin-bottom: 0;
+}
+.space-news-4-item.small-news-block .space-news-4-item-excerpt {
+	display: none;
+}
+
+/* #4 Widget End */
+
+/* #6 Widget Start */
+
+.space-news-6-items.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-6-items-ins {
+    padding-bottom: 30px;
+}
+.space-news-6-item.first-news,
+.space-news-6-item.third-news {
+	width: 50%;
+	order: 0;
+}
+.space-news-6-item.second-news {
+	width: 100%;
+	order: 1;
+}
+.space-news-6-item .space-news-6-item-top-excerpt {
+	display: none;
+}
+.space-news-6-item-ins ul {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.space-news-6-item-ins ul li {
+	margin-left: 15px;
+	margin-right: -15px;
+	width: 50%;
+	float: left;
+	border-bottom: 1px solid transparent;
+}
+
+/* #6 Widget End */
+
+/* #8 Widget Start */
+
+.space-news-8.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-8-ins {
+	padding-bottom: 45px;
+}
+
+/* #8 Widget End */
+
+/* #9 Widget Start */
+
+.space-news-9.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-9-ins {
+	padding-bottom: 45px;
+}
+.space-news-9-item-info-wrap {
+    padding: 30px;
+}
+
+/* #9 Widget End */
+
+/* Archive Section Start */
+
+.space-archive-loop-item-title {
+	margin-bottom: 30px;
+}
+.space-archive-loop-item-excerpt {
+	display: none;
+}
+
+/* Archive Section End */
+
+/* Widgets Start */
+
+.space-widget {
+	margin-bottom: 45px;
+}
+
+/* Widgets End */
+
+/* Footer Start */
+
+.space-footer-top {
+	padding: 45px 0;
+}
+.space-footer-ins {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Footer End */
+
+/* --- Call to action & Ratings Block --- */
+
+.space-casino-style-2-ratings-all {
+	width: 75%;
+}
+.space-casino-style-2-rating-overall {
+	width: 25%;
+}
+
+}
+
+/* 1024px and 992px */
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+
+/* Body Start */
+
+.space-content-section {
+	width: 100%;
+	float: none;
+	margin-bottom: 60px;
+}
+.space-sidebar-section {
+	width: 100%;
+	float: none;
+}
+
+/* Body End */
+
+/* Common Items Start */
+
+.space-desktop-view-2 {
+	display: none;
+}
+.space-mobile-view-2 {
+	display: block;
+}
+
+/* Common Items End */
+
+/* Header #1 Style Start */
+
+.space-header-height {
+	min-height: 60px;
+}
+.space-header-height.enable-top-bar {
+	min-height: 90px;
+}
+.space-header {
+    min-height: 60px;
+}
+.space-header-height.dark .space-header-logo-ins:after,
+.space-header-logo-ins:after {
+	background-color: transparent;
+}
+.space-header-logo {
+	width: 66.66666666%;
+}
+.space-header-logo a {
+	padding-top: 5px;
+}
+.space-header-logo a.text-logo {
+	padding-top: 7px;
+}
+.space-header-menu {
+	width: 33.33333333%;
+}
+.space-header-menu ul.main-menu {
+	display: none;
+}
+
+/* Header #1 Style End */
+
+/* Header #2 Style Start */
+
+.space-header-2-height,
+.space-header-2-wrap {
+    min-height: 60px;
+}
+.space-header-2-top {
+    min-height: 60px;
+}
+.space-header-2-top-ins {
+	min-height: 60px;
+    border-bottom: 0;
+}
+.space-header-2-height.dark .space-header-2-top-ins {
+	border-bottom: 0;
+}
+.space-header-2-top-soc .space-mobile-menu-icon {
+	top: 20px;
+    left: 15px;
+    right: auto;
+}
+.space-header-2-top-soc-ins {
+	display: none;
+}
+.space-header-2-top-logo-ins {
+    padding-top: 9px;
+}
+.space-header-2-top-logo a.text-logo {
+	padding-top: 3px;
+}
+.space-header-2-top-search .space-header-search {
+	top: 20px;
+    right: 15px;
+    color: #2d3436;
+}
+.space-header-2-nav {
+	display: none;
+}
+.space-header-2-wrap.fixed .space-header-2-top {
+	display: block;
+}
+
+/* Header #2 Style End */
+
+/* Search Block Start */
+
+.space-header-search {
+	right: 40px;
+	top: 20px;
+	margin: 0;
+}
+.desktop-search-close-button {
+	top: 20px;
+	right: 20px;
+}
+
+/* Search Block End */
+
+/* Mobile Menu Start */
+
+.space-mobile-menu-icon {
+	display: block;
+	top: 20px;
+    right: 15px;
+}
+
+/* Mobile Menu End */
+
+/* #1 Widget Start */
+
+.space-news-1 {
+	margin-bottom: 45px;
+}
+.space-news-1-ins {
+	padding: 30px 0 15px;
+}
+.space-news-1-item {
+	width: 50%;
+}
+
+/* #1 Widget End */
+
+/* #2 Widget Start */
+
+.space-news-2.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-2-ins {
+	padding: 0 0 45px;
+}
+.space-news-2-item-big-box-title {
+	font-size: 1.777em;
+	line-height: 1.2em;
+}
+.space-news-2-small-item-img .space-post-format {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.space-news-2-small-item-title a {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+.space-news-2-small-item-meta {
+	display: none;
+}
+
+/* #2 Widget End */
+
+/* #3 Widget Start */
+
+.space-news-3.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-3-ins {
+	padding: 0 0 15px;
+}
+
+/* #3 Widget End */
+
+/* #4 Widget Start */
+
+.space-news-4 {
+	margin-bottom: 45px;
+}
+.space-news-4-ins {
+	padding: 45px 0 15px;
+}
+.space-news-4-item .space-news-4-item-top-title {
+	font-size: 1.333em;
+}
+.space-news-4-item.small-news-block .space-news-4-item-title {
+    margin-bottom: 0;
+}
+.space-news-4-item.small-news-block .space-news-4-item-title a {
+	font-size: 1.25em;
+}
+.space-news-4-item.small-news-block .space-news-4-item-excerpt {
+	display: none;
+}
+
+/* #4 Widget End */
+
+/* #6 Widget Start */
+
+.space-news-6-items.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-6-item.third-news .space-news-6-item-top-title {
+	font-size: 2.369em;
+}
+.space-news-6-items-ins {
+    padding-bottom: 15px;
+}
+.space-news-6-item.first-news,
+.space-news-6-item.third-news {
+	width: 50%;
+	order: 0;
+}
+.space-news-6-item.second-news {
+	width: 100%;
+	order: 1;
+}
+.space-news-6-item .space-news-6-item-top-excerpt {
+	display: none;
+}
+.space-news-6-item-ins ul {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.space-news-6-item-ins ul li {
+	margin-left: 15px;
+	margin-right: -15px;
+	width: 50%;
+	float: left;
+	border-bottom: 1px solid transparent;
+}
+
+/* #6 Widget End */
+
+/* #7 Widget Start */
+
+.space-news-7-item-top-date {
+	display: none;
+}
+.space-news-7-item-title {
+    font-size: 1em;
+    line-height: 1.2em;
+}
+/* #7 Widget End */
+
+/* #8 Widget Start */
+
+.space-news-8.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-8-ins {
+	padding-bottom: 45px;
+}
+.space-news-8-item-img-ins .space-post-format {
+	top: 15px;
+	right: 15px;
+}
+.space-news-8-item-title {
+	left: 30px;
+	right: 30px;
+}
+.space-news-8-item-title-box {
+    font-size: 2.369em;
+    line-height: 1.2em;
+}
+.space-news-8-items .owl-nav {
+	bottom: 15px;
+	right: 30px;
+}
+
+/* #8 Widget End */
+
+/* #9 Widget Start */
+
+.space-news-9.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-9-ins {
+	padding-bottom: 45px;
+}
+.space-news-9-item-info-wrap {
+    padding: 30px;
+}
+.space-news-9-item-info-excerpt {
+	display: none;
+}
+.space-news-9-item-img .space-post-format {
+	top: 15px;
+	right: 15px;
+}
+.space-news-9-items .owl-nav {
+	right: 30px;
+    bottom: 15px;
+}
+
+/* #9 Widget End */
+
+/* Title Box Start */
+
+.space-title-box-ins {
+	padding: 45px 0;
+}
+.space-title-box-h1 h1 {
+	font-size: 2.369em;
+}
+
+/* Title Box End */
+
+/* Widgets Start */
+
+.space-widget {
+	margin-bottom: 45px;
+}
+
+/* Widgets End */
+
+/* Footer Start */
+
+.space-footer-top {
+	padding: 45px 0;
+}
+.space-footer-ins {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.space-footer-copy {
+	padding: 30px 0;
+}
+.space-footer-copy-left {
+	width: 100%;
+	float: none;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.space-footer-copy-menu {
+	width: 100%;
+	float: none;
+}
+.space-footer-copy-menu ul {
+	position: relative;
+	left: 50%;
+	float: left;
+}
+.space-footer-copy-menu ul li {
+	position: relative;
+	left: -50%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.space-footer-copy-menu ul li a {
+	font-size: 0.7862em;
+}
+
+/* Footer End */
+
+}
+
+/* 991px and 768px */
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+/* Body Start */
+
+.space-content-section {
+	width: 100%;
+	float: none;
+	margin-bottom: 60px;
+}
+.space-sidebar-section {
+	width: 100%;
+	float: none;
+}
+
+/* Body End */
+
+/* Common Items Start */
+
+.space-desktop-view-1 {
+	display: none;
+}
+.space-mobile-view-1 {
+	display: block;
+}
+.space-desktop-view-2 {
+	display: none;
+}
+.space-mobile-view-2 {
+	display: block;
+}
+.space-desktop-view-4 {
+	display: none;
+}
+.space-mobile-view-4-1 {
+	display: none;
+}
+.space-mobile-view-4-2 {
+	display: block;
+}
+
+/* Common Items End */
+
+/* Header #1 Style Start */
+
+.space-header-height {
+	min-height: 60px;
+}
+.space-header-height.enable-top-bar {
+	min-height: 90px;
+}
+.space-header {
+    min-height: 60px;
+}
+.space-header-top-menu {
+	width: 50%;
+}
+.space-header-top-soc {
+	width: 50%;
+}
+.space-header-height.dark .space-header-logo-ins:after,
+.space-header-logo-ins:after {
+	background-color: transparent;
+}
+.space-header-logo {
+	width: 66.66666666%;
+}
+.space-header-logo a {
+	padding-top: 5px;
+}
+.space-header-logo a.text-logo {
+	padding-top: 7px;
+}
+.space-header-menu {
+	width: 33.33333333%;
+}
+.space-header-menu ul.main-menu {
+	display: none;
+}
+
+/* Header #1 Style End */
+
+/* Header #2 Style Start */
+
+.space-header-2-height,
+.space-header-2-wrap {
+    min-height: 60px;
+}
+.space-header-2-top {
+    min-height: 60px;
+}
+.space-header-2-top-ins {
+	min-height: 60px;
+    border-bottom: 0;
+}
+.space-header-2-height.dark .space-header-2-top-ins {
+	border-bottom: 0;
+}
+.space-header-2-top-soc .space-mobile-menu-icon {
+	top: 20px;
+    left: 15px;
+    right: auto;
+}
+.space-header-2-top-soc-ins {
+	display: none;
+}
+.space-header-2-top-logo-ins {
+    padding-top: 9px;
+}
+.space-header-2-top-logo a.text-logo {
+	padding-top: 3px;
+}
+.space-header-2-top-search .space-header-search {
+	top: 20px;
+    right: 15px;
+    color: #2d3436;
+}
+.space-header-2-nav {
+	display: none;
+}
+.space-header-2-wrap.fixed .space-header-2-top {
+	display: block;
+}
+
+/* Header #2 Style End */
+
+/* Search Block Start */
+
+.space-header-search {
+	right: 40px;
+	top: 20px;
+	margin: 0;
+}
+.desktop-search-close-button {
+	top: 20px;
+	right: 20px;
+}
+.space-header-search-block-ins {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* Search Block End */
+
+/* Mobile Menu Start */
+
+.space-mobile-menu-icon {
+	display: block;
+	top: 20px;
+    right: 15px;
+}
+
+/* Mobile Menu End */
+
+/* #1 Widget Start */
+
+.space-news-1 {
+	margin-bottom: 45px;
+}
+.space-news-1-ins {
+	padding: 30px 0 15px;
+}
+.space-news-1-item {
+	width: 50%;
+}
+
+/* #1 Widget End */
+
+/* #2 Widget Start */
+
+.space-news-2.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-2-ins {
+	padding: 0 0 45px;
+}
+.space-news-2-item-big-box {
+	padding: 20px 20px 0;
+}
+.space-news-2-item-big-box-title {
+	font-size: 1.777em;
+	line-height: 1.2em;
+	margin-bottom: 0;
+}
+.space-news-2-item-big-box-excerpt {
+	display: none;
+}
+.space-news-2-item-big-box-meta span {
+	display: none;
+}
+.space-news-2-item-big-box-meta span.category {
+	display: inline-block;
+	margin-right: 0;
+}
+.space-news-2-small-item-img .space-post-format {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.space-news-2-small-item-title a {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+.space-news-2-small-item-meta {
+	display: none;
+}
+
+/* #2 Widget End */
+
+/* #3 Widget Start */
+
+.space-news-3.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-3-ins {
+	padding: 0 0 15px;
+}
+.space-news-3-item {
+	width: 50%;
+}
+
+/* #3 Widget End */
+
+/* #4 Widget Start */
+
+.space-news-4 {
+	margin-bottom: 45px;
+}
+.space-news-4-ins {
+	padding: 20px 0 15px;
+	max-width: 750px;
+}
+.space-news-4-item {
+	width: 50%;
+}
+
+/* #4 Widget End */
+
+/* #6 Widget Start */
+
+.space-news-6-items.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-6-items-ins {
+    padding-bottom: 15px;
+}
+.space-news-6-item.first-news,
+.space-news-6-item.third-news {
+	width: 50%;
+	order: 0;
+}
+.space-news-6-item.second-news {
+	width: 100%;
+	order: 1;
+}
+.space-news-6-item .space-news-6-item-top-title,
+.space-news-6-item.third-news .space-news-6-item-top-title {
+	font-size: 1.333em;
+}
+.space-news-6-item .space-news-6-item-top-excerpt {
+	display: none;
+}
+
+/* #6 Widget End */
+
+/* #7 Widget Start */
+
+.space-news-7-item {
+	width: 33.3333333%;
+}
+.space-news-7-item-top-date {
+	display: none;
+}
+.space-news-7-item-title-box {
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}
+
+/* #7 Widget End */
+
+/* #8 Widget Start */
+
+.space-news-8.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-8-ins {
+	padding-bottom: 45px;
+}
+.space-news-8-item-img-ins .space-post-format {
+	top: 15px;
+	right: 15px;
+}
+.space-news-8-item-title {
+	left: 30px;
+	right: 30px;
+}
+.space-news-8-item-title-box {
+    font-size: 1.777em;
+    line-height: 1.2em;
+}
+.space-news-8-items .owl-nav {
+	bottom: 15px;
+	right: 30px;
+}
+
+/* #8 Widget End */
+
+/* #9 Widget Start */
+
+.space-news-9.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-9-ins {
+	padding-bottom: 45px;
+}
+.space-news-9-item-info-wrap {
+    padding: 30px;
+}
+.space-news-9-item-info-category {
+    margin-bottom: 5px;
+}
+.space-news-9-item-title-box {
+    font-size: 1.777em;
+    line-height: 1.2em;
+}
+.space-news-9-item-info-meta {
+	margin-top: 5px;
+}
+.space-news-9-item-info-meta span:nth-child(3) {
+	display: none;
+}
+.space-news-9-item-info-excerpt {
+	display: none;
+}
+.space-news-9-item-img .space-post-format {
+	top: 15px;
+	right: 15px;
+}
+.space-news-9-items .owl-nav {
+	right: 30px;
+    bottom: 15px;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 1em;
+    line-height: 30px;
+}
+.space-news-9-items .owl-nav button {
+    width: 35px;
+    height: 30px;
+}
+
+/* #9 Widget End */
+
+/* Title Box Start */
+
+.space-title-box-ins {
+	padding: 45px 0;
+}
+.space-title-box-h1 h1 {
+	font-size: 2.369em;
+}
+
+/* Title Box End */
+
+/* Archive Section Start */
+
+.space-archive-loop-item-title-box-ins {
+	margin-top: 20px;
+}
+.space-archive-loop-item-title {
+	margin-bottom: 15px;
+}
+.space-archive-loop-item-excerpt {
+	display: none;
+}
+.space-archive-loop-item-title-box.no-image .space-archive-loop-item-title-box-ins {
+	margin: 15px;
+}
+
+/* Archive Section End */
+
+/* Widgets Start */
+
+.space-widget {
+	margin-bottom: 45px;
+}
+
+/* Widgets End */
+
+/* Footer Start */
+
+.space-footer-top {
+	padding: 45px 0;
+}
+.space-footer-ins {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.space-footer-top-soc a {
+	margin: 0 5px 5px;
+}
+.space-footer-copy {
+	padding: 30px 0;
+}
+.space-footer-copy-left {
+	width: 100%;
+	float: none;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.space-footer-copy-menu {
+	width: 100%;
+	float: none;
+}
+.space-footer-copy-menu ul {
+	position: relative;
+	left: 50%;
+	float: left;
+}
+.space-footer-copy-menu ul li {
+	position: relative;
+	left: -50%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.space-footer-copy-menu ul li a {
+	font-size: 0.7862em;
+}
+
+/* Footer End */
+
+/* MailChimp Form Widgets Start */
+
+.home-page .widget_mc4wp_form_widget,
+.space-content-section .widget_mc4wp_form_widget {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+.home-page .widget_mc4wp_form_widget .mc4wp-form-fields,
+.space-content-section .widget_mc4wp_form_widget .mc4wp-form-fields {
+	max-width: 450px;
+}
+
+/* MailChimp Form Widgets End */
+
+/* Aces Plugin Start */
+
+/* --- Companies Home Widget --- */
+
+.space-companies-archive-item,
+.space-games-archive-item,
+.space-bonuses-archive-item {
+	width: 50%;
+}
+
+/* --- Single Casino Page - Style 1 --- */
+
+.style-1-without-sidebar .space-aces-content-meta {
+	width: 33.3333333%;
+}
+.style-1-without-sidebar .space-aces-content-box {
+	width: 66.6666666%;
+}
+
+/* --- Single Casino Page - Style 2 --- */
+
+.space-casino-header-button a.space-style-2-button {
+	padding: 17px 20px;
+	font-size: 1em;
+}
+
+/* --- Call to action & Ratings Block --- */
+
+.space-casino-style-2-ratings-all {
+	width: 75%;
+}
+.space-casino-style-2-rating-overall {
+	width: 25%;
+}
+
+/* --- #2 Companies Home Widget --- */
+
+.space-companies-home-2-widget.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-companies-home-2-widget .space-block-title {
+    padding-bottom: 0;
+}
+.space-companies-home-2-widget-ins {
+    padding-bottom: 0;
+}
+.space-companies-2-archive-item {
+	width: 50%;
+}
+
+/* --- #3 Casinos Homepage Widget --- */
+
+.space-casinos-home-3-widget-ins {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.space-casinos-home-3-widget .space-block-title {
+    padding-bottom: 0;
+}
+.space-casinos-3-archive-item {
+	width: 50%;
+}
+.space-casinos-3-archive-item-ins {
+	padding-bottom: 20px;
+}
+.space-casinos-3-archive-item-count {
+	left: auto;
+    right: 15px;
+}
+.space-casinos-3-archive-item-logo {
+	width: 100%;
+}
+.space-casinos-3-archive-item-terms {
+	width: 100%;
+}
+.space-casinos-3-archive-item-terms-ins {
+	padding-bottom: 15px;
+}
+.space-casinos-3-archive-item-rating {
+	width: 100%;
+	justify-content: center;
+}
+.space-casinos-3-archive-item-rating-ins {
+	display: inline-block;
+    width: 133px;
+}
+.space-casinos-3-archive-item-games {
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.space-casinos-3-archive-item-rating-box {
+	display: inline-block;
+	height: 33px;
+	border-radius: 16px;
+	padding: 7px 35px 7px 10px;
+}
+.space-casinos-3-archive-item-rating-box .star-rating .star {
+	font-size: 0.85em;
+	line-height: 1.2em;
+	width: 1.2em;
+}
+.space-casinos-3-archive-item-rating-box span {
+	right: 10px;
+	height: 0.85em;
+    font-size: 0.85em;
+    line-height: 1em;
+}
+.space-casinos-3-archive-item-button {
+	width: 100%;
+}
+.space-casinos-3-archive-item-button-ins {
+	margin-top: 10px;
+}
+.space-casinos-3-archive-item-button-ins a {
+	min-width: auto;
+	padding: 8px 20px;
+    font-size: 0.85em;
+    border-radius: 16px;
+}
+.space-casinos-3-archive-item-button-ins a:first-child {
+	margin-bottom: 0;
+}
+.space-casinos-3-archive-item-button-ins a:last-child {
+    margin-top: 0;
+}
+.space-casinos-3-archive-item-logo-ins:after,
+.space-casinos-3-archive-item-terms-ins:after,
+.space-casinos-3-archive-item-rating-ins:after {
+	display: none;
+}
+
+/* --- #4 Casinos Homepage Widget --- */
+
+.space-casinos-4-archive-items {
+	margin: 15px 8px 0;
+	width: auto;
+}
+.space-casinos-4-archive-item {
+	width: 50%;
+}
+.space-casinos-4-archive-item-ins {
+	margin: 0 7px 15px;
+}
+
+/* --- Single Bonus Page --- */
+
+.space-aces-single-bonus-img {
+	display: none;
+}
+.space-aces-single-bonus-info {
+	width: 100%;
+	border-radius: 5px;
+	margin: 0 15px;
+}
+.space-aces-single-bonus-info-ins {
+	max-width: 480px;
+	margin: 0 auto;
+}
+.space-aces-single-bonus-info-ins,
+.space-aces-single-bonus-info.box-100 .space-aces-single-bonus-info-ins {
+	padding-bottom: 20px;
+}
+.space-aces-single-bonus-info-code {
+	width: 100%;
+	float: none;
+	margin-bottom: 10px;
+}
+.space-aces-single-bonus-info-button {
+	width: 100%;
+	float: none;
+	padding-bottom: 20px;
+}
+
+/* Aces Plugin End */
+
+/* Shortcodes Start */
+
+/* --- Casinos Shortcode #3 --- */
+
+.space-shortcode-3 .space-companies-sidebar-item {
+    width: 100%;
+}
+.space-shortcode-3 .space-companies-sidebar-item.box-25,
+.space-shortcode-3 .space-companies-sidebar-item.box-33,
+.space-shortcode-3 .space-companies-sidebar-item.box-50 {
+    width: 50%;
+}
+
+/* --- Games Shortcode #7 --- */
+
+.space-shortcode-7 .space-games-sidebar-item {
+    width: 100%;
+}
+.space-shortcode-7 .space-games-sidebar-item.box-25,
+.space-shortcode-7 .space-games-sidebar-item.box-33,
+.space-shortcode-7 .space-games-sidebar-item.box-50 {
+    width: 50%;
+}
+
+/* Shortcodes End */
+
+}
+
+/* 767px and 480px */
+
+@media screen and (max-width: 767px) and (min-width: 480px) {
+
+/* Body Start */
+
+h2,
+h2 a {
+	font-size: 1.777em;
+}
+h3,
+h3 a {
+	font-size: 1.333em;
+}
+h4,
+h4 a {
+	font-size: 1em;
+}
+h5,
+h5 a {
+	font-size: 1em;
+}
+h6,
+h6 a {
+	font-size: 1em;
+}
+.space-content-section {
+	width: 100%;
+	float: none;
+	margin-bottom: 60px;
+}
+.space-sidebar-section {
+	width: 100%;
+	float: none;
+}
+.space-page-content .alignfull,
+.space-page-content .alignwide {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Body End */
+
+/* Common Items Start */
+
+blockquote,
+blockquote.wp-block-quote {
+	padding: 2em 15px 0;
+    margin: 1.45em 0 2.9em;
+}
+.space-desktop-view-1 {
+	display: none;
+}
+.space-mobile-view-1 {
+	display: block;
+}
+.space-desktop-view-2 {
+	display: none;
+}
+.space-mobile-view-2 {
+	display: block;
+}
+.space-desktop-view-4 {
+	display: none;
+}
+.space-mobile-view-4-1 {
+	display: none;
+}
+.space-mobile-view-4-2 {
+	display: block;
+}
+
+/* Common Items End */
+
+/* Header #1 Style Start */
+
+.space-header-height {
+	min-height: 60px;
+}
+.space-header-height.enable-top-bar {
+	min-height: 60px;
+}
+.space-header {
+    min-height: 60px;
+}
+.space-header-top {
+	display: none;
+}
+.space-header-height.dark .space-header-logo-ins:after,
+.space-header-logo-ins:after {
+	background-color: transparent;
+}
+.space-header-logo {
+	width: 66.66666666%;
+}
+.space-header-logo a {
+	padding-top: 5px;
+}
+.space-header-logo a.text-logo {
+	padding-top: 7px;
+}
+.space-header-menu {
+	width: 33.33333333%;
+}
+.space-header-menu ul.main-menu {
+	display: none;
+}
+
+/* Header #1 Style End */
+
+/* Header #2 Style Start */
+
+.space-header-2-height,
+.space-header-2-wrap {
+    min-height: 60px;
+}
+.space-header-2-top {
+    min-height: 60px;
+}
+.space-header-2-top-ins {
+	min-height: 60px;
+    border-bottom: 0;
+}
+.space-header-2-height.dark .space-header-2-top-ins {
+	border-bottom: 0;
+}
+.space-header-2-top-soc .space-mobile-menu-icon {
+	top: 20px;
+    left: 15px;
+    right: auto;
+}
+.space-header-2-top-soc-ins {
+	display: none;
+}
+.space-header-2-top-logo-ins {
+    padding-top: 9px;
+}
+.space-header-2-top-logo a.text-logo {
+	padding-top: 3px;
+}
+.space-header-2-top-search .space-header-search {
+	top: 20px;
+    right: 15px;
+    color: #2d3436;
+}
+.space-header-2-nav {
+	display: none;
+}
+.space-header-2-wrap.fixed .space-header-2-top {
+	display: block;
+}
+
+/* Header #2 Style End */
+
+/* Search Block Start */
+
+.space-header-search {
+	right: 40px;
+	top: 20px;
+	margin: 0;
+}
+.desktop-search-close-button {
+	top: 20px;
+	right: 15px;
+}
+.space-header-search-block-ins {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.space-header-search-block input[type="search"] {
+	width: 100%;
+	border-radius: 2px;
+}
+.space-header-search-block input[type="submit"] {
+	display: none;
+}
+
+/* Search Block End */
+
+/* Mobile Menu Start */
+
+.space-mobile-menu-icon {
+	display: block;
+	top: 20px;
+    right: 15px;
+}
+
+/* Mobile Menu End */
+
+/* #1 Widget Start */
+
+.space-news-1 {
+	margin-bottom: 45px;
+}
+.space-news-1-ins {
+	padding: 30px 0 15px;
+}
+.space-news-1-item {
+	width: 100%;
+	float: none;
+}
+
+/* #1 Widget End */
+
+/* #2 Widget Start */
+
+.space-news-2.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-2-ins {
+	padding: 0 0 45px;
+}
+.space-news-2-items-left {
+	width: 100%;
+	float: none;
+	margin-bottom: 20px;
+}
+.space-news-2-item-big-box-title {
+	font-size: 1.777em;
+	line-height: 1.2em;
+}
+.space-news-2-items-right {
+	width: 100%;
+	float: none;
+}
+.space-news-2-small-item {
+	width: 50%;
+}
+
+/* #2 Widget End */
+
+/* #3 Widget Start */
+
+.space-news-3.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-3-ins {
+	padding: 0 0 15px;
+}
+.space-news-3-item {
+	width: 50%;
+}
+
+/* #3 Widget End */
+
+/* #4 Widget Start */
+
+.space-news-4 {
+	margin-bottom: 45px;
+}
+.space-news-4-ins {
+	padding: 20px 0 15px;
+}
+.space-news-4-item {
+	width: 50%;
+}
+.space-news-4-item.small-news-block .space-news-4-item-title-box {
+    padding: 25px 15px 20px;
+}
+
+/* #4 Widget End */
+
+/* #6 Widget Start */
+
+.space-news-6-items.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-6-items-ins {
+    padding-bottom: 15px;
+}
+.space-news-6-item {
+	width: 100%;
+}
+
+/* #6 Widget End */
+
+/* #7 Widget Start */
+
+.space-news-7-item {
+	width: 50%;
+}
+
+/* #7 Widget End */
+
+/* #8 Widget Start */
+
+.space-news-8.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-8-ins {
+	padding-bottom: 45px;
+}
+.space-news-8-item-img-ins .space-post-format {
+	top: 15px;
+	right: 15px;
+}
+.space-news-8-item-title {
+	left: 20px;
+	right: 20px;
+}
+.space-news-8-item-title-box {
+    font-size: 1.777em;
+    line-height: 1.2em;
+}
+.space-news-8-items .owl-nav {
+	bottom: 15px;
+	right: 30px;
+}
+
+/* #8 Widget End */
+
+/* #9 Widget Start */
+
+.space-news-9.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-9-ins {
+	padding-bottom: 45px;
+}
+.space-news-9-item-info-wrap {
+    padding: 20px;
+}
+.space-news-9-item-info-category {
+    margin-bottom: 5px;
+}
+.space-news-9-item-info-category span {
+    padding: 4px 10px;
+}
+.space-news-9-item-title-box {
+    font-size: 1em;
+    line-height: 1.2em;
+}
+.space-news-9-item-info-meta {
+	margin-top: 5px;
+}
+.space-news-9-item-info-meta span:nth-child(3) {
+	display: none;
+}
+.space-news-9-item-info-excerpt {
+	display: none;
+}
+.space-news-9-item-img img {
+	border-radius: 0 5px 5px 0;
+}
+.space-news-9-item-img .space-post-format {
+	top: 15px;
+	right: 15px;
+}
+.space-news-9-items .owl-nav {
+	right: 30px;
+    bottom: 15px;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 1em;
+    line-height: 30px;
+}
+.space-news-9-items .owl-nav button {
+    width: 35px;
+    height: 30px;
+}
+
+/* #9 Widget End */
+
+/* Title Box Start */
+
+.space-title-box-ins {
+	padding: 45px 0;
+}
+.space-title-box-h1 h1 {
+	font-size: 1.777em;
+}
+
+/* Title Box End */
+
+/* Archive Section Start */
+
+.space-archive-loop-item-title-box-ins {
+	margin-top: 20px;
+}
+.space-archive-loop-item-excerpt {
+	display: none;
+}
+.space-archive-loop-item-title-box.no-image .space-archive-loop-item-title-box-ins {
+	margin: 15px;
+}
+
+/* Archive Section End */
+
+/* Page Section Start */
+
+.space-page-content-excerpt p {
+	font-size: 1em;
+}
+
+/* Page Section End */
+
+/* Comments Start */
+
+.space-comments-list-item-avatar {
+	position: relative;
+    margin-bottom: 15px;
+}
+.space-comments-list-item-data {
+	padding-left: 0;
+}
+.space-comments-form-box input[type="text"],
+.space-comments-form-box input[type="email"],
+.space-comments-form-box input[type="password"],
+.space-comments-form-box input[type="submit"],
+.space-comments-form-box input[type="url"],
+form.comment-form input[type="text"],
+form.comment-form input[type="email"],
+form.comment-form input[type="password"],
+form.comment-form input[type="submit"],
+form.comment-form input[type="url"] {
+	width: 100%;
+}
+
+/* Comments End */
+
+/* Widgets Start */
+
+.space-widget {
+	margin-bottom: 45px;
+}
+
+/* Widgets End */
+
+/* Footer Start */
+
+.space-footer-ins {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.space-footer-top-age {
+	width: 100%;
+	order: 1;
+	margin-bottom: 15px;
+}
+.space-footer-top-desc {
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	order: 2;
+	margin-bottom: 20px;
+}
+.space-footer-top-soc {
+	width: 100%;
+	order: 3;
+	justify-content: center;
+}
+.space-footer-top-soc a {
+	margin: 0 5px 5px;
+}
+.space-footer-copy {
+	padding: 30px 0;
+}
+.space-footer-copy-left {
+	width: 100%;
+	float: none;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.space-footer-copy-menu {
+	width: 100%;
+	float: none;
+}
+.space-footer-copy-menu ul {
+	position: relative;
+	float: none;
+    text-align: center;
+}
+.space-footer-copy-menu ul li {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+    display: inline-block;
+    float: none;
+}
+.space-footer-copy-menu ul li a {
+	font-size: 0.7862em;
+}
+
+/* Footer End */
+
+/* MailChimp Form Widgets Start */
+
+.home-page .widget_mc4wp_form_widget,
+.space-content-section .widget_mc4wp_form_widget {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+.home-page .widget_mc4wp_form_widget .mc4wp-form-fields,
+.space-content-section .widget_mc4wp_form_widget .mc4wp-form-fields {
+	max-width: 450px;
+}
+
+/* MailChimp Form Widgets End */
+
+/* Aces Plugin Start */
+
+/* --- Companies Home Widget --- */
+
+.space-companies-archive-item,
+.space-games-archive-item,
+.space-bonuses-archive-item {
+	width: 50%;
+}
+
+/* --- Single Casino Page - Style 1 --- */
+
+.style-1-without-sidebar .space-aces-content-meta {
+	width: 40%;
+}
+.style-1-without-sidebar .space-aces-content-box {
+	width: 60%;
+}
+
+/* --- Single Casino Page - Style 2 --- */
+
+.space-style-2-casino-header-ins {
+	padding: 45px 0 35px;
+}
+.space-style-2-casino-header-left {
+	width: 100%;
+}
+.space-style-2-casino-header-right {
+	width: 100%;
+}
+.space-casino-header-logo-title {
+	display: block;
+}
+.space-casino-header-logo-box {
+	margin: 0 auto;
+}
+.space-casino-header-title-box {
+	width: 100%;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+.space-casino-header-title-box h1 {
+	font-size: 1.777em;
+}
+.space-casino-header-button a.space-style-2-button {
+	display: inline-block;
+    padding: 17px 55px;
+}
+
+/* --- Call to action & Ratings Block --- */
+
+.space-casino-style-2-calltoaction-text {
+	width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.space-casino-style-2-calltoaction-text-ins {
+	padding-right: 0;
+	width: 100%;
+}
+.space-casino-style-2-calltoaction-button {
+	width: 100%;
+    justify-content: center;
+}
+.space-casino-style-2-ratings-all {
+	width: 100%;
+    order: 2;
+}
+.space-casino-style-2-ratings-all-item {
+	width: 100%;
+}
+.space-casino-style-2-rating-overall {
+	width: 100%;
+    order: 1;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+/* --- Casino Details --- */
+
+.space-casino-details-item {
+	padding-bottom: 0;
+}
+.space-casino-details-item-title {
+	width: 100%;
+    margin-bottom: 20px;
+}
+.space-casino-details-item-links {
+	width: 100%;
+    text-align: right;
+}
+
+/* --- Pros/Cons --- */
+
+.space-pros {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.space-pros.box-50 .space-pros-ins {
+	margin: 0;
+}
+.space-cons {
+	width: 100%;
+}
+.space-cons.box-50 .space-cons-ins {
+	margin: 0;
+}
+
+/* --- #2 Companies Home Widget --- */
+
+.space-companies-home-2-widget.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-companies-home-2-widget .space-block-title {
+    padding-bottom: 0;
+}
+.space-companies-home-2-widget-ins {
+    padding-bottom: 0;
+}
+.space-companies-2-archive-item {
+	width: 50%;
+}
+
+/* --- #3 Casinos Homepage Widget --- */
+
+.space-casinos-home-3-widget-ins {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.space-casinos-home-3-widget .space-block-title {
+    padding-bottom: 0;
+}
+.space-casinos-3-archive-item-ins {
+	padding-bottom: 20px;
+}
+.space-casinos-3-archive-item-count {
+	left: auto;
+    right: 15px;
+}
+.space-casinos-3-archive-item-logo {
+	width: 100%;
+}
+.space-casinos-3-archive-item-terms {
+	width: 100%;
+}
+.space-casinos-3-archive-item-terms-ins {
+	padding-bottom: 15px;
+}
+.space-casinos-3-archive-item-rating {
+	width: 100%;
+	justify-content: center;
+}
+.space-casinos-3-archive-item-rating-ins {
+	display: inline-block;
+    width: 133px;
+}
+.space-casinos-3-archive-item-games {
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.space-casinos-3-archive-item-rating-box {
+	display: inline-block;
+	height: 33px;
+	border-radius: 16px;
+	padding: 7px 35px 7px 10px;
+}
+.space-casinos-3-archive-item-rating-box .star-rating .star {
+	font-size: 0.85em;
+	line-height: 1.2em;
+	width: 1.2em;
+}
+.space-casinos-3-archive-item-rating-box span {
+	right: 10px;
+	height: 0.85em;
+    font-size: 0.85em;
+    line-height: 1em;
+}
+.space-casinos-3-archive-item-button {
+	width: 100%;
+}
+.space-casinos-3-archive-item-button-ins {
+	margin-top: 10px;
+}
+.space-casinos-3-archive-item-button-ins a {
+	min-width: auto;
+	padding: 8px 20px;
+    font-size: 0.85em;
+    border-radius: 16px;
+}
+.space-casinos-3-archive-item-button-ins a:first-child {
+	margin-bottom: 0;
+}
+.space-casinos-3-archive-item-button-ins a:last-child {
+    margin-top: 0;
+}
+.space-casinos-3-archive-item-logo-ins:after,
+.space-casinos-3-archive-item-terms-ins:after,
+.space-casinos-3-archive-item-rating-ins:after {
+	display: none;
+}
+
+/* --- #4 Casinos Homepage Widget --- */
+
+.space-casinos-4-archive-items {
+	margin: 15px 8px 0;
+	width: auto;
+}
+.space-casinos-4-archive-item {
+	width: 50%;
+}
+.space-casinos-4-archive-item-ins {
+	margin: 0 7px 15px;
+}
+
+/* --- Single Bonus Page --- */
+
+.space-aces-single-bonus-img {
+	display: none;
+}
+.space-aces-single-bonus-info {
+	width: 100%;
+	border-radius: 5px;
+	margin: 0 15px;
+}
+.space-aces-single-bonus-info-ins {
+	max-width: 480px;
+	margin: 0 auto;
+}
+.space-aces-single-bonus-info-ins,
+.space-aces-single-bonus-info.box-100 .space-aces-single-bonus-info-ins {
+	padding-bottom: 20px;
+}
+.space-aces-single-bonus-info-code {
+	width: 100%;
+	float: none;
+	margin-bottom: 10px;
+}
+.space-aces-single-bonus-info-button {
+	width: 100%;
+	float: none;
+	padding-bottom: 20px;
+}
+
+/* Aces Plugin End */
+
+/* Shortcodes Start */
+
+/* --- Casinos Shortcode #3 --- */
+
+.space-shortcode-3 .space-companies-sidebar-item {
+    width: 100%;
+}
+.space-shortcode-3 .space-companies-sidebar-item.box-25,
+.space-shortcode-3 .space-companies-sidebar-item.box-33,
+.space-shortcode-3 .space-companies-sidebar-item.box-50 {
+    width: 50%;
+}
+
+/* --- Games Shortcode #7 --- */
+
+.space-shortcode-7 .space-games-sidebar-item {
+    width: 100%;
+}
+.space-shortcode-7 .space-games-sidebar-item.box-25,
+.space-shortcode-7 .space-games-sidebar-item.box-33,
+.space-shortcode-7 .space-games-sidebar-item.box-50 {
+    width: 50%;
+}
+
+/* Shortcodes End */
+
+}
+
+/* 600px and 480px */
+
+@media screen and (max-width: 600px) and (min-width: 480px) {
+
+/* #4 Widget Start */
+
+.space-news-4-item .space-news-4-item-top-excerpt {
+	display: none;
+}
+
+/* #4 Widget End */
+
+/* #6 Widget Start */
+
+.space-news-6-item .space-news-6-item-top-excerpt {
+	display: none;
+}
+
+/* #6 Widget End */
+
+}
+
+/* 479px */
+
+@media screen and (max-width: 479px) {
+
+/* Body Start */
+
+h2,
+h2 a {
+	font-size: 1.777em;
+}
+h3,
+h3 a {
+	font-size: 1.333em;
+}
+h4,
+h4 a {
+	font-size: 1em;
+}
+h5,
+h5 a {
+	font-size: 1em;
+}
+h6,
+h6 a {
+	font-size: 1em;
+}
+.space-content-section {
+	width: 100%;
+	float: none;
+	margin-bottom: 60px;
+}
+.space-sidebar-section {
+	width: 100%;
+	float: none;
+}
+.wp-block-media-text.alignwide,
+.wp-block-media-text.alignfull,
+.wp-block-image.alignwide,
+.wp-block-image.alignfull,
+.wp-block-cover.alignfull,
+.wp-block-cover-image.alignfull,
+.wp-block-cover.alignwide,
+.wp-block-cover-image.alignwide {
+    margin-right: 0;
+    margin-left: 0;
+}
+.alignwide,
+.alignfull {
+	margin-right: -15px;
+    margin-left: -15px;
+}
+.space-block-title {
+	padding-bottom: 15px;
+}
+
+/* Body End */
+
+/* Common Items Start */
+
+blockquote,
+blockquote.wp-block-quote {
+	padding: 2em 15px 0;
+    margin: 1.45em 0 2.9em;
+}
+.space-desktop-view {
+	display: none;
+}
+.space-mobile-view {
+	display: block;
+}
+.space-desktop-view-2 {
+	display: none;
+}
+.space-mobile-view-2 {
+	display: block;
+}
+.space-desktop-view-4 {
+	display: none;
+}
+.space-mobile-view-4-1 {
+	display: block;
+}
+.space-mobile-view-4-2 {
+	display: none;
+}
+
+/* Common Items End */
+
+/* Header #1 Style Start */
+
+.space-header-height {
+	min-height: 60px;
+}
+.space-header-height.enable-top-bar {
+	min-height: 60px;
+}
+.space-header {
+    min-height: 60px;
+}
+.space-header-top {
+	display: none;
+}
+.space-header-height.dark .space-header-logo-ins:after,
+.space-header-logo-ins:after {
+	background-color: transparent;
+}
+.space-header-logo {
+	width: 66.66666666%;
+}
+.space-header-logo a {
+	padding-top: 5px;
+}
+.space-header-logo a.text-logo {
+	padding-top: 7px;
+}
+.space-header-menu {
+	width: 33.33333333%;
+}
+.space-header-menu ul.main-menu {
+	display: none;
+}
+
+/* Header #1 Style End */
+
+/* Header #2 Style Start */
+
+.space-header-2-height,
+.space-header-2-wrap {
+    min-height: 60px;
+}
+.space-header-2-top {
+    min-height: 60px;
+}
+.space-header-2-top-ins {
+	min-height: 60px;
+    border-bottom: 0;
+}
+.space-header-2-height.dark .space-header-2-top-ins {
+	border-bottom: 0;
+}
+.space-header-2-top-soc {
+	width: 10%;
+}
+.space-header-2-top-soc .space-mobile-menu-icon {
+	top: 20px;
+    left: 15px;
+    right: auto;
+}
+.space-header-2-top-soc-ins {
+	display: none;
+}
+.space-header-2-top-logo {
+	width: 80%;
+}
+.space-header-2-top-logo-ins {
+    padding-top: 9px;
+}
+.space-header-2-top-logo a.text-logo {
+	padding-top: 3px;
+}
+.space-header-2-top-search {
+	width: 10%;
+}
+.space-header-2-top-search .space-header-search {
+	top: 20px;
+    right: 15px;
+    color: #2d3436;
+}
+.space-header-2-nav {
+	display: none;
+}
+.space-header-2-wrap.fixed .space-header-2-top {
+	display: block;
+}
+
+/* Header #2 Style End */
+
+/* Search Block Start */
+
+.space-header-search {
+	right: 40px;
+	top: 20px;
+	margin: 0;
+}
+.desktop-search-close-button {
+	top: 20px;
+	right: 15px;
+}
+.space-header-search-block-ins {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.space-header-search-block input[type="search"] {
+	width: 100%;
+	font-size: 1.777em;
+    line-height: 1.45em;
+}
+
+/* Search Block End */
+
+/* Mobile Menu Start */
+
+.space-mobile-menu-icon {
+	display: block;
+	top: 20px;
+    right: 15px;
+}
+
+/* Mobile Menu End */
+
+/* #1 Widget Start */
+
+.space-news-1 {
+	margin-bottom: 45px;
+}
+.space-news-1-ins {
+	padding: 30px 0 15px;
+}
+.space-news-1-item {
+	width: 100%;
+	float: none;
+}
+.space-news-1.homepage-block:first-child .space-news-1-ins {
+    padding: 15px 0 0;
+}
+
+/* #1 Widget End */
+
+/* #2 Widget Start */
+
+.space-news-2.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-2-ins {
+	padding: 0 0 45px;
+}
+.space-news-2-items-left {
+	width: 100%;
+	float: none;
+	margin-bottom: 20px;
+}
+.space-news-2-item-big-ins {
+	padding-bottom: 20px;
+}
+.space-news-2-item-big-box {
+	padding: 20px 20px 0;
+	bottom: 19px;
+}
+.space-news-2-item-big-box-title {
+	font-size: 1.777em;
+	line-height: 1.2em;
+	margin-bottom: 0;
+}
+.space-news-2-item-big-box-excerpt {
+	display: none;
+}
+.space-news-2-item-big-box-meta span {
+	display: none;
+}
+.space-news-2-item-big-box-meta span.category {
+	display: inline-block;
+	margin-right: 0;
+}
+.space-news-2-items-right {
+	width: 100%;
+	float: none;
+}
+.space-news-2-small-item {
+	width: 100%;
+	float: none;
+}
+.space-news-2-small-item:nth-child(3) .space-news-2-small-item-ins {
+	margin-bottom: 30px;
+}
+
+/* #2 Widget End */
+
+/* #3 Widget Start */
+
+.space-news-3.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-3-ins {
+	padding: 0 0 15px;
+}
+.space-news-3-item {
+	width: 100%;
+	float: none;
+}
+
+/* #3 Widget End */
+
+/* #4 Widget Start */
+
+.space-news-4 {
+	margin-bottom: 30px;
+}
+.space-news-4-ins {
+	padding: 20px 0 15px;
+}
+.space-news-4-item {
+	width: 100%;
+}
+.space-news-4-item-ins {
+	margin-bottom: 15px;
+}
+.space-news-4-item.small-news-block .space-news-4-item-meta {
+	left: 20px;
+    right: 20px;
+}
+.space-news-4-item.small-news-block .space-news-4-item-title-box {
+	padding: 25px 20px;
+}
+
+/* #4 Widget End */
+
+/* #6 Widget Start */
+
+.space-news-6-items.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-6-items-ins {
+    padding-bottom: 15px;
+}
+.space-news-6-item {
+	width: 100%;
+}
+.space-news-6-item-top {
+    top: 20px;
+    left: 20px;
+    right: 20px;
+}
+.space-news-6-item-bottom {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.space-news-6-item .space-news-6-item-top-title,
+.space-news-6-item.third-news .space-news-6-item-top-title {
+	font-size: 1.333em;
+}
+.space-news-6-item .space-news-6-item-top-excerpt {
+	display: none;
+}
+
+/* #6 Widget End */
+
+/* #7 Widget Start */
+
+.space-news-7-item {
+	width: 100%;
+}
+.space-news-7-item-ins {
+	margin-bottom: 15px;
+}
+.space-news-7-item-top-date {
+	left: 20px;
+}
+.space-news-7-item-ins:hover .space-news-7-item-top-date {
+    top: 20px;
+}
+.space-news-7-item-title-box {
+    left: 20px;
+    right: 20px;
+}
+
+/* #7 Widget End */
+
+/* #8 Widget Start */
+
+.space-news-8.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-8-ins {
+	padding-bottom: 45px;
+}
+.space-news-8-item-img-ins .space-post-format {
+	top: 15px;
+	right: 15px;
+}
+.space-news-8-item-title {
+	left: 20px;
+	right: 20px;
+}
+.space-news-8-item-title-box {
+    font-size: 1.777em;
+    line-height: 1.2em;
+}
+.space-news-8-items .owl-nav {
+	bottom: 15px;
+	right: 30px;
+}
+
+/* #8 Widget End */
+
+/* #9 Widget Start */
+
+.space-news-9.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-news-9-ins {
+	padding-bottom: 45px;
+}
+.space-news-9-item-info {
+	width: 100%;
+	order: 2;
+	flex: none;
+}
+.space-news-9-item-info-wrap {
+    padding: 20px 20px 55px;
+}
+.space-news-9-item-info-category {
+    margin-bottom: 5px;
+}
+.space-news-9-item-title-box {
+    font-size: 1.777em;
+    line-height: 1.2em;
+}
+.space-news-9-item-img {
+	width: 100%;
+	order: 1;
+	flex: none;
+}
+.space-news-9-item-img img {
+	border-radius: 5px 5px 0 0;
+}
+.space-news-9-item-img .space-post-format {
+	top: 15px;
+	right: 15px;
+}
+.space-news-9-items .owl-nav {
+	right: 0;
+    left: 0;
+    bottom: 20px;
+    margin: 0 auto;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 1em;
+    line-height: 30px;
+}
+.space-news-9-items .owl-nav button {
+    width: 35px;
+    height: 30px;
+}
+
+/* #9 Widget End */
+
+/* Title Box Start */
+
+.space-title-box-ins {
+	padding: 30px 0 15px;
+}
+.space-title-box-h1 h1 {
+	font-size: 1.777em;
+}
+.single .space-title-box-ins {
+    padding: 30px 0;
+}
+.space-page-content-excerpt {
+    margin-top: 15px;
+}
+.single-post .space-page-content-meta {
+    margin-bottom: 20px;
+}
+
+/* --- Archive Title Box --- */
+
+.space-archive-title-box-ins {
+	padding: 30px 0 15px;
+}
+.space-archive-title-box-h1 h1 {
+	font-size: 1.777em;
+}
+
+/* Title Box End */
+
+/* Archive Section Start */
+
+.space-archive-section-ins {
+	padding-top: 15px;
+}
+.space-archive-loop-item-img {
+	width: 100%;
+	float: none;
+}
+.space-archive-loop-item-title-box {
+	width: 100%;
+	float: none;
+}
+.space-archive-loop-item-title-box-ins {
+	margin-top: 20px;
+}
+.space-archive-loop-item-excerpt {
+	margin-bottom: 15px;
+	font-size: 0.9em;
+    line-height: 1.45em;
+}
+.space-archive-loop-item-title-box.no-image .space-archive-loop-item-title-box-ins {
+	margin: 15px;
+}
+.post-type-archive-casino .space-casinos-3-archive-item-ins,
+.tax-casino-category .space-casinos-3-archive-item-ins {
+	margin: 0 7px 30px;
+}
+.post-type-archive-bonus .space-bonuses-archive-items,
+.tax-bonus-category .space-bonuses-archive-items,
+.read-more-block .space-bonuses-archive-items,
+.page-template-page-bonus-archive-style-1 .space-bonuses-archive-items {
+	margin-top: 0;
+}
+
+/* Archive Section End */
+
+/* Page Section Start */
+
+.space-page-section-ins {
+    padding-top: 30px;
+}
+.space-page-content-excerpt p {
+	font-size: 1em;
+}
+
+/* Page Section End */
+
+/* Comments Start */
+
+.space-comments-ins {
+	margin-left: 0;
+	margin-right: 0;
+}
+.space-comments-wrap {
+	padding-right: 15px;
+	padding-left: 15px;
+    overflow: hidden;
+}
+.space-comments-list-item-avatar {
+	top: 0;
+    left: 0;
+	position: relative;
+    margin-bottom: 15px;
+}
+.space-comments-list-item-data {
+	padding-left: 0;
+}
+.space-comments-form-box input[type="text"],
+.space-comments-form-box input[type="email"],
+.space-comments-form-box input[type="password"],
+.space-comments-form-box input[type="submit"],
+.space-comments-form-box input[type="url"],
+form.comment-form input[type="text"],
+form.comment-form input[type="email"],
+form.comment-form input[type="password"],
+form.comment-form input[type="submit"],
+form.comment-form input[type="url"] {
+	width: 100%;
+}
+
+/* Comments End */
+
+/* Widgets Start */
+
+.space-widget {
+	margin-bottom: 45px;
+}
+
+/* Widgets End */
+
+/* Footer Start */
+
+.space-footer-ins {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.space-footer-top-age {
+	width: 100%;
+	order: 1;
+	margin-bottom: 15px;
+}
+.space-footer-top-desc {
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	order: 2;
+	margin-bottom: 20px;
+}
+.space-footer-top-soc {
+	width: 100%;
+	order: 3;
+	justify-content: center;
+}
+.space-footer-top-soc a {
+	margin: 0 5px 5px;
+}
+.space-footer-copy {
+	padding: 30px 0;
+}
+.space-footer-copy-left {
+	width: 100%;
+	float: none;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.space-footer-copy-menu {
+	width: 100%;
+	float: none;
+}
+.space-footer-copy-menu ul {
+	position: relative;
+	float: none;
+    text-align: center;
+}
+.space-footer-copy-menu ul li {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+    display: inline-block;
+    float: none;
+}
+.space-footer-copy-menu ul li a {
+	font-size: 0.7862em;
+}
+
+/* Footer End */
+
+/* MailChimp Form Widgets Start */
+
+.home-page .widget_mc4wp_form_widget .space-widget-title,
+.space-content-section .widget_mc4wp_form_widget .space-widget-title {
+	font-size: 1.777em;
+}
+.home-page .widget_mc4wp_form_widget,
+.space-content-section .widget_mc4wp_form_widget {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+.home-page .widget_mc4wp_form_widget .mc4wp-form-fields,
+.space-content-section .widget_mc4wp_form_widget .mc4wp-form-fields {
+	max-width: 570px;
+	margin: 0 15px;
+}
+.home-page .widget_mc4wp_form_widget .mc4wp-form-fields input[type="email"],
+.space-content-section .widget_mc4wp_form_widget .mc4wp-form-fields input[type="email"] {
+	width: 100%;
+	float: none;
+	border-radius: 2px;
+	margin-bottom: 15px;
+}
+.home-page .widget_mc4wp_form_widget .mc4wp-form-fields input[type="submit"],
+.space-content-section .widget_mc4wp_form_widget .mc4wp-form-fields input[type="submit"] {
+	width: 100%;
+	float: none;
+	border-radius: 2px;
+}
+
+/* MailChimp Form Widgets End */
+
+/* Gutenberg Editor Start */
+
+.wp-block-columns {
+	display: block;
+}
+blockquote:before,
+blockquote.wp-block-quote:before {
+	padding: 0 15px;
+}
+
+/* Gutenberg Editor End */
+
+/* Aces Plugin Start */
+
+.space-aces-content-meta {
+	width: 100%;
+	float: none;
+	margin-bottom: 30px;
+}
+.space-aces-content-box {
+	width: 100%;
+	float: none;
+}
+
+/* --- Single Casino Page --- */
+
+.space-casino-content-button-block {
+	margin-top: 30px;
+}
+.space-casino-content-rating-item {
+    width: 100%;
+}
+
+/* --- Single Casino Page - Style 2 --- */
+
+.space-style-2-casino-header-ins {
+	padding: 45px 0 35px;
+}
+.space-style-2-casino-header-left {
+	width: 100%;
+}
+.space-style-2-casino-header-right {
+	width: 100%;
+}
+.space-casino-header-logo-title {
+	display: block;
+}
+.space-casino-header-logo-box {
+	margin: 0 auto;
+}
+.space-casino-header-title-box {
+	width: 100%;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+.space-casino-header-title-box h1 {
+	font-size: 1.777em;
+}
+.space-casino-header-button a.space-style-2-button {
+	display: inline-block;
+    padding: 17px 55px;
+}
+
+/* --- Call to action & Ratings Block --- */
+
+.space-casino-style-2-calltoaction-text {
+	width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.space-casino-style-2-calltoaction-text-ins {
+	padding-right: 0;
+}
+.space-casino-style-2-calltoaction-button {
+	width: 100%;
+    justify-content: center;
+}
+.space-casino-style-2-ratings-all {
+	width: 100%;
+    order: 2;
+}
+.space-casino-style-2-ratings-all-item {
+	width: 100%;
+}
+.space-casino-style-2-rating-overall {
+	width: 100%;
+    order: 1;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+/* --- Casino Details --- */
+
+.space-casino-details-item {
+	padding-bottom: 0;
+}
+.space-casino-details-item-title {
+	width: 100%;
+    margin-bottom: 20px;
+}
+.space-casino-details-item-links {
+	width: 100%;
+    text-align: right;
+}
+
+/* --- Pros/Cons --- */
+
+.space-pros {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.space-pros.box-50 .space-pros-ins {
+	margin: 0;
+}
+.space-cons {
+	width: 100%;
+}
+.space-cons.box-50 .space-cons-ins {
+	margin: 0;
+}
+
+/* --- #1 Casinos Homepage Widget --- */
+
+.space-companies-home-widget {
+	margin-bottom: 30px;
+}
+.space-companies-home-widget-ins {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.space-companies-archive-items {
+	margin: 0 8px;
+    width: auto;
+}
+.space-companies-archive-item {
+	width: 50%;
+	float: none;
+}
+.space-companies-archive-item-ins {
+	margin: 0 7px 15px;
+}
+.space-companies-archive-item-wrap,
+.space-companies-archive-item-wrap.big {
+    padding: 20px;
+}
+.space-companies-archive-item-img {
+    margin-bottom: 10px;
+}
+.space-companies-archive-item img {
+    width: 80px;
+}
+.space-companies-archive-item-big-img img {
+	width: auto;
+}
+.space-companies-archive-item-title {
+    margin-bottom: 10px;
+}
+.space-companies-archive-item-title a {
+    font-size: 1em;
+}
+.space-companies-archive-item-rating {
+    margin-bottom: 5px;
+}
+.space-companies-archive-item-rating .star-rating .star {
+	font-size: 0.60em;
+	padding-right: 2px;
+    padding-left: 2px;
+}
+.space-companies-archive-item-short-desc {
+	display: none;
+}
+.space-companies-archive-item-button {
+    margin-top: 15px;
+}
+.space-companies-archive-item-button a {
+	padding: 8px 20px;
+    font-size: 0.85em;
+    border-radius: 16px;
+}
+
+/* --- #2 Casinos Homepage Widget --- */
+
+.space-companies-home-2-widget.homepage-block:first-child {
+    margin-top: 15px;
+}
+.space-companies-home-2-widget .space-block-title {
+    padding-bottom: 0;
+}
+.space-companies-home-2-widget-ins {
+    padding-bottom: 0;
+}
+.space-companies-2-archive-item {
+	width: 50%;
+}
+.space-companies-2-archive-item-img {
+	float: none;
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+}
+.space-companies-2-archive-item-title-box {
+	float: none;
+}
+.space-companies-2-archive-item-title-box-ins {
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* --- #3 Casinos Homepage Widget --- */
+
+.space-casinos-home-3-widget {
+	margin-bottom: 30px;
+}
+.space-casinos-home-3-widget-ins {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.space-casinos-home-3-widget .space-block-title {
+    padding-bottom: 0;
+}
+.space-casinos-3-archive-item-ins {
+	padding-bottom: 20px;
+}
+.space-casinos-3-archive-item-count {
+	left: auto;
+    right: 15px;
+}
+.space-casinos-3-archive-item-logo {
+	width: 100%;
+}
+.space-casinos-3-archive-item-terms {
+	width: 100%;
+}
+.space-casinos-3-archive-item-terms-ins {
+	padding-bottom: 15px;
+}
+.space-casinos-3-archive-item-rating {
+	width: 100%;
+	justify-content: center;
+}
+.space-casinos-3-archive-item-rating-ins {
+	display: inline-block;
+    width: 133px;
+}
+.space-casinos-3-archive-item-games {
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.space-casinos-3-archive-item-rating-box {
+	display: inline-block;
+	height: 33px;
+	border-radius: 16px;
+	padding: 7px 35px 7px 10px;
+}
+.space-casinos-3-archive-item-rating-box .star-rating .star {
+	font-size: 0.85em;
+	line-height: 1.2em;
+	width: 1.2em;
+}
+.space-casinos-3-archive-item-rating-box span {
+	right: 10px;
+	height: 0.85em;
+    font-size: 0.85em;
+    line-height: 1em;
+}
+.space-casinos-3-archive-item-button {
+	width: 100%;
+}
+.space-casinos-3-archive-item-button-ins {
+	margin-top: 10px;
+}
+.space-casinos-3-archive-item-button-ins a {
+	min-width: auto;
+	padding: 8px 20px;
+    font-size: 0.85em;
+    border-radius: 16px;
+}
+.space-casinos-3-archive-item-button-ins a:first-child {
+	margin-bottom: 0;
+}
+.space-casinos-3-archive-item-button-ins a:last-child {
+    margin-top: 0;
+}
+.space-casinos-3-archive-item-logo-ins:after,
+.space-casinos-3-archive-item-terms-ins:after,
+.space-casinos-3-archive-item-rating-ins:after {
+	display: none;
+}
+
+/* --- #4 Casinos Homepage Widget --- */
+
+.space-casinos-4-archive-items {
+	margin: 0 8px 0;
+	width: auto;
+}
+.space-casinos-4-archive-item {
+	width: 100%;
+}
+.space-casinos-4-archive-item-ins {
+	margin: 0 7px 15px;
+}
+.space-casinos-4-archive-item-desc {
+	min-height: auto;
+}
+
+/* --- Games Home Widget --- */
+
+.space-games-home-widget-ins {
+	padding-top: 15px;
+    padding-bottom: 0;
+}
+.space-games-archive-items {
+	margin: 0 8px;
+    width: auto;
+}
+.space-games-archive-item {
+	width: 50%;
+}
+.space-games-archive-item-ins {
+	margin: 0 7px 15px;
+}
+.space-games-archive-item-wrap {
+    padding: 20px;
+}
+.space-games-archive-item-title a {
+    font-size: 1em;
+}
+.space-games-archive-item-button {
+    margin-top: 15px;
+}
+.space-games-archive-item-button a {
+	padding: 8px 20px;
+    font-size: 0.85em;
+    border-radius: 16px;
+}
+
+/* --- Bonuses Home Widget --- */
+
+.space-bonuses-home-widget {
+	margin-bottom: 30px;
+}
+.space-bonuses-home-widget-ins {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.space-bonuses-home-widget .space-block-title {
+    padding-bottom: 0;
+}
+.space-bonuses-archive-item {
+	width: 100%;
+	float: none;
+}
+.space-bonuses-archive-item-ins {
+	margin-bottom: 15px;
+}
+
+/* --- Single Bonus Page --- */
+
+.space-aces-single-bonus-img {
+	display: none;
+}
+.space-aces-single-bonus-info {
+	width: 100%;
+	border-radius: 5px;
+	margin: 0 15px;
+}
+.space-aces-single-bonus-info-ins,
+.space-aces-single-bonus-info.box-100 .space-aces-single-bonus-info-ins {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.space-aces-single-bonus-info-title h1 {
+	font-size: 1.777em;
+}
+.space-aces-single-bonus-info-code {
+	width: 100%;
+	float: none;
+	margin-bottom: 10px;
+}
+.space-aces-single-bonus-info-button {
+	width: 100%;
+	float: none;
+	padding-bottom: 20px;
+}
+
+/* Aces Plugin End */
+
+/* Shortcodes Start */
+
+/* --- Casinos Shortcode #3 --- */
+
+.space-shortcode-3 .space-companies-sidebar-item {
+    width: 100%;
+}
+
+/* --- Games Shortcode #7 --- */
+
+.space-shortcode-7 .space-games-sidebar-item {
+    width: 100%;
+}
+
+/* Shortcodes End */
+
+}

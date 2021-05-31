@@ -1,0 +1,9 @@
+<?php
+ale_demo_media::add_image_to_media_gallery('ale_about_author',"http://alethemes.com/gardener_base/media/about_author.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_info1',"http://alethemes.com/gardener_base/media/about_info1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_info2',"http://alethemes.com/gardener_base/media/about_info2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_icon1',"http://alethemes.com/gardener_base/media/about_icon1.png");
+ale_demo_media::add_image_to_media_gallery('ale_about_icon2',"http://alethemes.com/gardener_base/media/about_icon2.png");
+ale_demo_media::add_image_to_media_gallery('ale_about_icon3',"http://alethemes.com/gardener_base/media/about_icon3.png");
+ale_demo_media::add_image_to_media_gallery('ale_about_video',"http://alethemes.com/gardener_base/media/about_video.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_home_partners',"http://alethemes.com/gardener_base/media/partner_bg.jpg");
